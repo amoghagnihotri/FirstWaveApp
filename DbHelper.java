@@ -17,7 +17,7 @@ public class DbHelper extends SQLiteOpenHelper {
     private static final String DB_NAME="EDMTDev";
     private static final int DB_VER = 1;
     public static final String DB_TABLE="Task";
-    public static final String DB_COLUMN = "TaskName";
+    public static final String DB_COLUMN = "TaskLName";
 
     public DbHelper(Context context) {
         super(context, DB_NAME, null, DB_VER);
